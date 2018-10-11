@@ -18,10 +18,13 @@ a {
 
 .header {
   height: 145px;
+  background-color: white;
 }
 
 .logo {
   float: left;
+  padding-top: 20px;
+  padding-left: 207px;
 }
 
 .navigation-menu{
@@ -29,13 +32,21 @@ a {
   height: 113px;
   margin-left: 320px;
   padding-left: 0px;
-  padding-top: 36px;
+  padding-top: 30px;
+  line-height: 34px;
 }
 
 .navigation-menu li {
   display: inline-block;
   font-size: 13px;
   padding-right: 36px;
+}
+
+.navigation-menu li:last-child {
+  height: 34px;
+  width: 34px;
+  background-image: url(image/mail.png);
+  padding: 0;
 
 }
 
@@ -48,15 +59,17 @@ a {
 }
 
 .mail {
-
+ vertical-align: middle;
 }
 
-.mail:hover {
+ .navigation-menu li:last-child:hover {
   opacity: .6;
 }
 
 .slogan {
   height: 532px;
+  width: 1350px;
+  background-image: url(image/slogan.png);
 }
 
 .latest-work {
@@ -71,20 +84,142 @@ a {
   padding-left: 518px;
 }
 
-.left-block h2 {
+.header-latest-work {
+  height: 182px;
+}
+
+.main-latest-work {
+  height: 455px;
+  background-image: url(image/iphone.png);
+  background-position: center;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.description{
+    width: 520px;
+    float: left;
+}
+
+.description h2 {
   display: inline-block;
   margin-top: 110px;
   margin-left: 207px;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: normal;
   width: 214px;
   float: left;
 }
 
-.left-block p {
+.description p {
   display: inline-block;
   margin-left: 207px;
   margin-top: 25px;
   font-size: 11.9px;
   float: left;
+  text-align: left;
+}
+
+.icons-list {
+  margin-left: 207px;
+  margin-top: 28px;
+  list-style-type: none;
+  width: 150px;
+  float: left;
+}
+
+.icons-list li {
+  padding-bottom: 10px;
+  font-size: 14px;
+  width: 150px;
+  list-style-type: none;
+}
+
+.technology {
+  float: right;
+  width: 520px;
+  height: 336px;
+}
+
+.technology h2 {
+  display: inline-block;
+  margin-top: 110px;
+  font-size: 18px;
+  font-weight: normal;
+  width: 214px;
+  float: left;
+}
+
+.technology-icons li {
+  display: inline-block;
+  padding-top: 30px;
+}
+
+.technology-gallery {
+  display: inline-block;
+  color: white;
+  font-size: 14px;
+  margin-top: 37px;
+}
+
+.technology-gallery:hover {
+  opacity: .6;
+}
+
+.latest-work-padding {
+  margin-top: 160px;
+  height: 140px;
+  background-image: url(image/pagination.png);
+  background-position: center;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.how-we-work {
+  height: 747px;
+  border-color: white;
+}
+
+.header-how-we-work {
+  margin-left: 454px;
+  margin-top: 87px;
+}
+
+.main-how-we-work {
+  background-image: url(image/BGhowwework.png);
+  background-position: center;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 597px;
+}
+
+.how-list {
+  margin-top: 75px;
+  margin-left: 208px;
+}
+.how-list li {
+  display: inline-block;
+  width: 285px;
+  height: 178px;
+  margin-right: 35px;
+}
+
+h2+p {
+  margin-top: 25px;
+}
+
+.work-with-us {
+  height: 40px;
+  width: 200px;
+  background-color: #ff0000;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 45px;
+  margin-left: 572px;
+  border-radius: 5px;
+}
+
+.work-with-us:hover {
+  opacity: .6;
 }
