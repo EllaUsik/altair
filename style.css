@@ -223,3 +223,91 @@ h2+p {
 .work-with-us:hover {
   opacity: .6;
 }
+
+.latest-blog-post {
+  background-color: #3f3b48;
+  height: 867px;
+}
+
+.latest-blog-header {
+  width: 395px;
+  margin-left: 480px;
+  padding-top: 86px;
+}
+
+.latest-blog-posts {
+  height: 505px;
+  background-image: url(image/posts.png);
+  background-position: center;
+  background-position: top;
+  background-repeat: no-repeat;
+  margin-top: 68px;
+}
+
+.scroll {
+  padding-left: 208px;
+}
+
+.fun-facts {
+  height: 708px;
+}
+
+.fun-facts-title {
+  padding-top: 85px;
+  margin-left: 530px;
+}
+
+.fun-facts-main {
+  height: 390px;
+  width: 910px;
+  background-image: url(image/partners.png);
+  background-position: bottom;
+  background-position: left;
+  background-repeat: no-repeat;
+  margin-left: 209px;
+  margin-top: 60px;
+}
+
+.clients {
+  font-size: 18px;
+  display: inline-block;
+  text-align: left;
+}
+
+.diagramm {
+  display: inline-block;
+  float: right;
+  padding-top: 40px;
+}
+
+.padding {
+  height: 89px;
+  background-color: #3f3b48;
+  font-size: 14px;
+  color: white;
+}
+
+.coppyright {
+  display: inline-block;
+  float: left;
+  width: 315px;
+  margin-top: 37px;
+  margin-left: 207px;
+}
+
+.follow-us {
+  display: inline-block;
+  float: right;
+  margin-top: 37px;
+  margin-left: 445px;
+  width: 380px;
+}
+
+.social-networks {
+  width: 300px;
+}
+
+.social-networks li{
+  display: inline-block;
+  float: right;
+}
