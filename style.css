@@ -46,6 +46,8 @@ a {
   height: 34px;
   width: 34px;
   background-image: url(image/mail.png);
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 0;
 
 }
@@ -207,28 +209,23 @@ a {
 
 .colom h2 {
   margin-left: 38px;
-  line-height: 40px;
-
 }
 
 .plan {
   background-image: url(image/plan.png);
-  background-position: left;
-  background-position: top;
+  background-position: left top;
   background-repeat: no-repeat;
 }
 
 .action {
   background-image: url(image/action.png);
-  background-position: left;
-  background-position: top;
+  background-position: left top;
   background-repeat: no-repeat;
 }
 
 .launch {
   background-image: url(image/launch.png);
-  background-position: left;
-  background-position: top;
+  background-position: left top;
   background-repeat: no-repeat;
 }
 
