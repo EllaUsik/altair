@@ -7,7 +7,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="header">
+      <header>
         <img class="logo" src="./image/logo.png">
         <ul class="navigation-menu">
           <li сlass="nav-item">
@@ -25,12 +25,13 @@
           <li сlass="nav-item">
             <a class="nav-item-link" href="altair/funfacts.html">FUN FACTS</a>
           </li>
-          <li class="nav-item-link mail-link">
+          <li class="nav-item mail-link">
             <a class="mail" href="altair/mail.html"> </a>
             <!--<img class="mail" src="./image/mail.png">-->
           </li>
         </ul>
-      </div>
+      </header>
+      <div class="clearfix"></div>
       <div class="slogan">
         <!--<img class="header-picture" src="./image/slogan.png">-->
       </div>
@@ -41,7 +42,6 @@
         <div class="main-latest-work">
           <div class="description">
             <h2>BRRRILLIANT</h2>
-             <div class="clearfix"></div>
             <p>
               This is Photoshop's version  of Lorem Ipsum. Proin gravida
               nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
@@ -49,7 +49,6 @@
               sem nibh id elit. Duis sed odio sit amet nibh vulputate
               cursus a sit amet.
             </p>
-            <div class="clearfix"></div>
             <ul class="icons-list">
               <li>
                 <img class="icon-trophy" src="./image/trophy.png">
@@ -64,7 +63,6 @@
                 RATING
               </li>
             </ul>
-            <div class="clearfix"></div>
           </div>
           <div class="technology">
             <h2>TECHNOLOGY USED</h2>
@@ -74,14 +72,13 @@
               <li><img src="./image/css3.png"></li>
               <li><img src="./image/android.png"></li>
             </ul>
-            <div class="clearfix"></div>
             <a class="technology-gallery" href="altair/technology-gallery.html">
               VIEV GALLERY >
             </a>
           </div>
-          <div class="clearfix"></div>
-          <div class="latest-work-padding">
-          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="latest-work-padding">
         </div>
       </div>
       <div class="how-we-work">
@@ -90,8 +87,8 @@
         </div>
         <div class="main-how-we-work">
           <ul class="how-list">
-            <li class="colom plan">
-              <h2>PLAN</h2>
+            <li class="column">
+              <h2 class="plan">PLAN</h2>
               <p>
                 This is Photoshop's version  of Lorem Ipsum. Proin
                 nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
@@ -99,8 +96,8 @@
                 sem nibh id elit. Duis sed odio sit amet nibh vulputate
               </p>
             </li>
-            <li class="colom action">
-              <h2>ACTION</h2>
+            <li class="column">
+              <h2 class="action">ACTION</h2>
               <p>
                 This is Photoshop's version  of Lorem Ipsum. Proin
                 nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
@@ -109,8 +106,8 @@
                 cursus a sit amet.
               </p>
             </li>
-            <li class="colom launch">
-              <h2>LAUNCH</h2>
+            <li class="column">
+              <h2 class="launch">LAUNCH</h2>
               <p>
                 This is Photoshop's version  of Lorem Ipsum. Proin
                 nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
@@ -119,6 +116,7 @@
               </p>
             </li>
           </ul>
+          <div class="clearfix"></div>
         <input class="work-with-us" type="submit" value="WORK WITH US!"></input>
       </div>
       <div class="clearfix"></div>
@@ -127,7 +125,23 @@
           <img src="./image/latestblogtitle.png">
         </div>
         <div class="latest-blog-posts">
-          <img src="./image/fade.png">
+          <!--<img src="./image/fade.png">-->
+          <div class="post-block">
+            <div class="post-background">
+            </div>
+            <p class="post-author">
+              BY TOMMY GRIFFIN
+            </p>
+            <p class="post-name">
+              HOLLYWOOD'S LATEST TREND COMES UNDERFIRE
+            </p>
+            <a class="post-link" href="altair/post.html">
+              <img src="./image/postlink.png">
+              <span>
+                Read Article
+              </span>
+            </a>
+          </div>
         </div>
         <img class="scroll" src="./image/scroll.png">
       </div>
@@ -135,12 +149,12 @@
         <div class="fun-facts-title">
           <img src="./image/funfactstitle.png">
         </div>
+        <span class="clients">OUR FAVORITE CLIENTS:</span>
         <div class="fun-facts-main">
-          <span class="clients">OUR FAVORITE CLIENTS:</span>
           <img class="diagramm" src="./image/factsdiagramm.png">
         </div>
       </div>
-      <div class="padding">
+      <footer>
         <div class="coppyright">
           © Copyright 2010 - 2013. Altair. All rights reserved
         </div>
@@ -164,7 +178,7 @@
              </li>
            </ul>
         </div>
-      </div>
+      </footer>
     </div>
   </body>
 </html>
