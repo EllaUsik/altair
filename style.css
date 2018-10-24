@@ -87,16 +87,16 @@ header {
   color: #ffffff;
 }
 
-.title-latest-work {
+.latest-work-title {
   padding-top: 85px;
   padding-left: 518px;
 }
 
-.header-latest-work {
+.latest-work-header {
   height: 182px;
 }
 
-.main-latest-work {
+.latest-work-main {
   height: 455px;
   background-image: url(image/iphone.png);
   background-position: center;
@@ -140,7 +140,26 @@ header {
   padding-bottom: 10px;
   font-size: 14px;
   width: 150px;
+  padding-left: 20px;
   list-style-type: none;
+}
+
+.icon-trophy {
+  background-image: url(image/trophy.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.icon-listitems {
+  background-image: url(image/listitems.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.icon-rating {
+  background-image: url(image/rating.png);
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 
 .technology {
@@ -186,12 +205,12 @@ header {
   border-color: white;
 }
 
-.header-how-we-work {
+.how-we-work-header {
   margin-left: 454px;
   margin-top: 87px;
 }
 
-.main-how-we-work {
+.how-we-work-main {
   background-image: url(image/BGhowwework.png);
   background-position: bottom;
   background-repeat: no-repeat;
