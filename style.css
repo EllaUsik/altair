@@ -466,6 +466,7 @@ footer {
   float: right;
   margin-right: 178px;
   margin-left: 15px;
+  margin-top: 16px;
 }
 
 .network-icon {
@@ -475,6 +476,38 @@ footer {
   margin-top: 10px;
 }
 
-.network-icon a:hover {
+.dribbble {
+  background-image: url(image/dribbble.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 33px;
+  width: 33px;
+
+}
+
+.twitter {
+  background-image: url(image/twitter.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 33px;
+  width: 33px;
+}
+
+.fb {
+  background-image: url(image/fb.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 33px;
+  width: 33px;
+}
+
+.network-icon a{
+  display: inline-block;
+  height: 33px;
+  width: 33px;
+}
+
+
+.network-icon:hover {
   opacity: .6;
 }
