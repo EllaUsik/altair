@@ -193,9 +193,9 @@ header {
 
 .main-how-we-work {
   background-image: url(image/BGhowwework.png);
-  background-position: center;
   background-position: bottom;
   background-repeat: no-repeat;
+  background-size: contain;
   height: 495px;
 }
 
@@ -255,7 +255,7 @@ h2+p {
 
 .latest-blog-post {
   background-color: #3f3b48;
-  height: 867px;
+
 }
 
 .latest-blog-header {
@@ -265,16 +265,26 @@ h2+p {
 }
 
 .latest-blog-posts {
-  height: 505px;
+  height: 445px;
   margin-top: 68px;
+  position: relative;
+}
+
+.post-block-list {
+  display: inline-block;
+  position: absolute;
+  height: 445px;
+  overflow: hidden;
 }
 
 .post-block {
   background-color: #595466;
   height: 445px;
   width: 330px;
-  float: left;
-  margin-left: 302px;
+  position: relative;
+  display: inline-block;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 
 .post-background {
@@ -306,6 +316,16 @@ h2+p {
   font-size: 10px;
   margin-left: 30px;
   margin-top: 30px;
+}
+
+.post-link span {
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+.post-link img {
+  display: inline-block;
   line-height: 20px;
   vertical-align: middle;
 }
@@ -314,13 +334,55 @@ h2+p {
   opacity: .6;
 }
 
-.post-link img {
-
+.date-block {
+  position: absolute;
+  height: 80px;
+  width: 70px;
+  position: absolute;
+  bottom: 154px;
+  left: 240px;
 }
 
+.date-namber {
+  display: inline-block;
+  color: #3f3b48;
+  background-color: white;
+  height: 54px;
+  font-size: 45px;
+  font-weight: bold;
+  width: 70px;
+  line-height: 54px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid white;
+  border-radius: 10px 10px 0 0;
+}
+
+.date-month {
+  display: inline-block;
+  height: 26px;
+  background-color: #3f3b48;
+  color: white;
+  font-size: 11px;
+  width: 70px;
+  text-align: center;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 26px;
+  border: 1px solid #3f3b48;
+  border-radius: 0 0 10px 10px;
+}
 
 .scroll {
-  padding-left: 208px;
+  height: 165px;
+  background-image: url(image/scrollline.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.scrollblock {
+  margin-left: 300px;
+  margin-top: 71px;
 }
 
 .fun-facts-title {
