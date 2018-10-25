@@ -193,12 +193,60 @@ header {
   opacity: .6;
 }
 
-.latest-work-padding {
-  height: 140px;
-  background-image: url(image/pagination.png);
-  background-position: center;
-  background-position: top;
+.pagination {
+  position: relative;
+  height: 175px;
+}
+
+.pagination-button {
+  width: 195px;
+  height: 45px;
+  margin-top: 30px;
+}
+
+.pagination-right {
+  background-image: url(image/paginationright.png);
   background-repeat: no-repeat;
+  background-size: contain;
+  float: right;
+  margin-right: 475px;
+}
+
+.pagination-left {
+  background-image: url(image/paginationleft.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
+  margin-left: 475px;
+}
+
+.button-project {
+  width: 125px;
+  height: 30px;
+  color: #3f3b48;
+  background-color: white;
+  border: white;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 7px;
+  margin-left: 39px;
+  outline: none;
+}
+
+.button-project:hover {
+  opacity: .6;
+}
+
+.pagination-center {
+  display:inline-block;
+  height: 63px;
+  width: 76px;
+  background-image: url(image/paginationcenter.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 636px;
+  position: absolute;
+  margin-top: 22px;
 }
 
 .how-we-work {
