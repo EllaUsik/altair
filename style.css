@@ -10,6 +10,8 @@
   width: 1350px;
   font-family: sans-serif;
   font-style: normal;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {
@@ -193,8 +195,7 @@ header {
   opacity: .6;
 }
 
-.pagination {
-  position: relative;
+.latest-work-padding {
   height: 175px;
 }
 
@@ -204,33 +205,41 @@ header {
   margin-top: 30px;
 }
 
+.pagination {
+  position: relative;
+  margin-left: 470px;
+  width: 395px;
+  height: 62px;
+}
+
 .pagination-right {
-  background-image: url(image/paginationright.png);
+  background-image: url(image/pagination-right.png);
   background-repeat: no-repeat;
   background-size: contain;
   float: right;
-  margin-right: 475px;
 }
 
 .pagination-left {
-  background-image: url(image/paginationleft.png);
+  background-image: url(image/pagination-left.png);
   background-repeat: no-repeat;
   background-size: contain;
   float: left;
-  margin-left: 475px;
 }
 
 .button-project {
-  width: 125px;
-  height: 30px;
+  width: 160px;
+  height: 45px;
   color: #3f3b48;
-  background-color: white;
+  background: none;
   border: white;
   font-weight: bold;
   font-size: 12px;
-  margin-top: 7px;
   margin-left: 39px;
   outline: none;
+}
+
+.previous-project {
+  margin-left: 10px;
 }
 
 .button-project:hover {
@@ -241,10 +250,10 @@ header {
   display:inline-block;
   height: 63px;
   width: 76px;
-  background-image: url(image/paginationcenter.png);
+  background-image: url(image/pagination-center.png);
   background-repeat: no-repeat;
   background-size: contain;
-  margin-left: 636px;
+  margin-left: 165px;
   position: absolute;
   margin-top: 22px;
   padding-top: 20px;
@@ -459,16 +468,23 @@ h2+p {
 }
 
 .scroll {
+  margin-left: 200px;
+  margin-top: 71px;
+}
+
+.scroll-panel {
   height: 165px;
   background-image: url(image/scrollline.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left top;
+  position: relative;
 }
 
 .scrollblock {
-  margin-left: 300px;
-  margin-top: 71px;
+  position: absolute;
+  margin-left: 100px;
 }
+
 
 .fun-facts-title {
   padding-top: 85px;
